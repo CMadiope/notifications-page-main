@@ -47,13 +47,28 @@ header {
 .thread {
   display: flex;
   margin-bottom: 15px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: transparent;
 }
+.thread:hover {
+  padding: 10px;
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
+}
+
 .avatar {
   margin-right: 25px;
   cursor: pointer;
 }
+.avatar:hover {
+  opacity: 0.6;
+}
+
 .time-stamp {
   margin-top: 20px;
+  font-weight: 300;
+  color: grey;
 }
 .name {
   font-weight: bolder;
@@ -64,4 +79,10 @@ header {
   font-weight: 800;
   color: hsl(219, 85%, 26%);
   cursor: pointer;
+}
+
+.comment {
+  position: relative;
+  left: 800px;
+  bottom: 60px;
 }
