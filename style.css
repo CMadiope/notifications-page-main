@@ -13,19 +13,55 @@ body {
 .container {
   background: hsl(0, 0%, 100%);
   padding: 50px;
+  margin: 50px;
+  border-radius: 15px;
+  
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 .notifications {
   font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
 }
+
 .notifications span {
-  background-color: hsl(224, 21%, 14%);
+  background-color:hsl(219, 85%, 26%);
   color: #fff;
-  padding: 10px;
+  padding: 5px 15px 5px 15px;
   border-radius: 10px;
+  margin-left: 10px;
+}
+.mark {
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
+}
+
+.mark:hover {
+  color: hsl(219, 85%, 26%);
+}
+.thread {
+  display: flex;
+  margin-bottom: 15px;
+}
+.avatar {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.time-stamp {
+  margin-top: 20px;
+}
+.name {
+  font-weight: bolder;
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.event {
+  font-weight: 800;
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
 }
