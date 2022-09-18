@@ -9,13 +9,14 @@ body {
   background: hsl(210, 60%, 98%);
   font-size: 16px;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.6;
 }
 .container {
   background: hsl(0, 0%, 100%);
   padding: 50px;
   margin: 50px;
   border-radius: 15px;
-  
+  color: grey;
 }
 
 header {
@@ -24,6 +25,7 @@ header {
   padding-bottom: 50px;
 }
 .notifications {
+  color: black;
   font-size: 25px;
   font-weight: 800;
   cursor: pointer;
@@ -37,7 +39,6 @@ header {
   margin-left: 10px;
 }
 .mark {
-  color: hsl(224, 21%, 14%);
   cursor: pointer;
 }
 
@@ -85,4 +86,15 @@ header {
   position: relative;
   left: 800px;
   bottom: 60px;
+}
+
+.private-message{
+  width: 70%;
+  padding: 20px;
+
+}
+.private-message:hover {
+  padding: 20px;
+  background-color: hsl(211, 68%, 94%);
+  border-radius: 10px;
 }
