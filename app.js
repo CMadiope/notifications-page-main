@@ -1,5 +1,10 @@
-let toggleBtn = document.getElementById('mark')
+const toggleBtn = document.getElementById('mark')
+const hidden = document.querySelectorAll(".hidden");
 
-function markread() {
-  
-}
+toggleBtn.addEventListener('click', () => {
+  hidden.forEach(el => {
+    el.classList.toggle('off')
+  })
+})
+
+
